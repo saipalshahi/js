@@ -62,4 +62,18 @@ let str3 = str1 + str2;
 
 let gameCounter = 100
 gameCounter++
-console.log(gameCounter)
+// console.log(gameCounter)
+
+
+//=====prefix======
+
+let a = 4
+const b = a++
+console.log(`a:${a}, b:${b}`)
+
+
+//=======postfix==========
+
+let x = 10
+const y = ++x
+console.log(`x:${x}, y:${y}`)
