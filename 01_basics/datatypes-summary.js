@@ -49,3 +49,35 @@ const myFunction = function(){
 // console.log(typeof myObj);
 // console.log(typeof myFunction);
 
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (use premitive) change in copy value
+// Heap (use non-primitive) change in original value
+
+// stack
+
+let firstName = "BhaiBahadur"
+
+let secondName = "firstName"
+secondName = "Saipal"
+
+// console.log(firstName);
+// console.log(secondName);
+
+
+// Heap
+
+ let userOne = {
+    name: "saipal",
+    email: "abc@gmail.com"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "saipalmessi@gmail.com"
+
+//  console.log(userOne.email)
+//  console.log(userOne.email)
+
