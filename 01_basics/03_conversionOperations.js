@@ -69,11 +69,11 @@ gameCounter++
 
 let a = 4
 const b = a++
-console.log(`a:${a}, b:${b}`)
+// console.log(`a:${a}, b:${b}`)
 
 
 //=======postfix==========
 
 let x = 10
 const y = ++x
-console.log(`x:${x}, y:${y}`)
+// console.log(`x:${x}, y:${y}`)
