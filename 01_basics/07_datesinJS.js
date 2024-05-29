@@ -27,7 +27,13 @@ let myTimeStramp = Date.now()
 
 
 let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getFullYear());
-console.log(newDate.getDate());
-console.log(newDate.getMonth() + 1);
+// console.log(newDate);
+// console.log(newDate.getFullYear());
+// console.log(newDate.getDate());
+// console.log(newDate.getMonth() + 1);
+// console.log(`date is ${newDate.getDate()} and month is ${newDate.getMonth()}`);
+
+
+console.log(newDate.toLocaleString('default',{
+    weekday: "long"
+}))
