@@ -31,5 +31,44 @@ const obj2 = {3: "c", 4: "d"}
 const obj3 = {...obj1, ...obj2}  //  90% we will use this one which is new and easy also
 // console.log(obj3);
 
+const users = [
+   {
+    id: 1,
+    email: "a@gmail.com"
+   },
+   {
+    id: 1,
+    email: "a@gmail.com"
+   },
+   {
+    id: 1,
+    email: "a@gmail.com"
+   },
+]
+
+// console.log(users[1].id)
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty('name'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename: "js with chai aur code",
+    price: "1999",
+    courseInstructor: "hitesh"
+}
+
+// console.log(course.courseInstructor);
+
+const {coursename : name} = course
+// console.log(name);
+
+// old value = xml // complex
+// new value = json  // simple
 
 
