@@ -71,4 +71,14 @@ const {coursename : name} = course
 // old value = xml // complex
 // new value = json  // simple
 
+// {
+//     name: "saipal",
+//     coursename: "js with chai aur code",
+//     price: "free"
+// }
 
+[
+    {},
+    {},
+    {}
+]
